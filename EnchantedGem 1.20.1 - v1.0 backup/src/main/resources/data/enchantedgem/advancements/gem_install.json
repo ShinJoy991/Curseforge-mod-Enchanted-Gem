@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "item": "enchantedgem:enchanted_gem_atk1"
+    },
+    "title": {
+      "translate": "advancements.full_armor_with_gem_inlay.title",
+      "color": "green"
+    },
+    "description": {
+      "translate": "advancements.full_armor_with_gem_inlay.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/end.png"
+  },
+  "criteria": {
+    "equip_full_gem_inlay_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "nbt": "{GEM_INLAY_COUNT:3}"
+            },
+            "chest": {
+              "nbt": "{GEM_INLAY_COUNT:3}"
+            },
+            "legs": {
+              "nbt": "{GEM_INLAY_COUNT:3}"
+            },
+            "feet": {
+              "nbt": "{GEM_INLAY_COUNT:3}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 300
+  }
+}

@@ -1,0 +1,54 @@
+#Whether to update item lore when player join world and when open container, turn this on to update old item lore or if you want edit value while running, turn off to save some task time
+Update_Item = false
+#Chance in % to generate in available chests
+#Range: 0 ~ 100
+Chest_Chance = 20
+#Chance in % of gem type if it is generated in chests
+#Range: 0 ~ 100
+Gem_Atk_Chance = 10
+#Range: 0 ~ 100
+Gem_Def_Chance = 10
+#Range: 0 ~ 100
+Gem_HP_Chance = 10
+#Range: 0 ~ 100
+Gem_SPD_Chance = 10
+#Range: 0 ~ 100
+Gem_CritDmg_Chance = 10
+#Range: 0 ~ 100
+Gem_Block_Chance = 10
+#Range: 0 ~ 100
+Rune_Chance = 10
+#Range: 0 ~ 100
+Spirit_Fire_Chance = 1
+#Range: 0 ~ 100
+Spirit_Water_Chance = 1
+#Range: 0 ~ 100
+Spirit_Wood_Chance = 1
+#Range: 0 ~ 100
+Spirit_Light_Chance = 1
+#Range: 0 ~ 100
+Spirit_Dark_Chance = 1
+#Below is the power of each gem type
+#Range: 0.0 ~ 1.7976931348623157E308
+Gem_Atk_Power = 0.3
+#Range: 0.0 ~ 1.7976931348623157E308
+Gem_Def_Power = 0.3
+#Range: 0.0 ~ 1.7976931348623157E308
+Gem_Hp_Power = 0.3
+#Range: 0.0 ~ 1.7976931348623157E308
+Gem_Spd_Power = 0.005
+#Range: 0.0 ~ 1.7976931348623157E308
+Gem_CritDmg_Power = 7.0
+#Range: 0.0 ~ 1.7976931348623157E308
+Rune_Atk_Power = 1.0
+#Range: 0.0 ~ 1.7976931348623157E308
+Rune_Shield_Power = 1.0
+#Range: 0.0 ~ 1.7976931348623157E308
+Rune_Recover_Power = 12.0
+#Range: 0.0 ~ 1.7976931348623157E308
+Rune_Recover_Victim_Power = 6.0
+#Range: 0.0 ~ 1.7976931348623157E308
+Rune_Regain_Hunger_Power = 7.0
+#Range: 0.0 ~ 1.7976931348623157E308
+Rune_Hunger_Victim_Power = 7.0
+

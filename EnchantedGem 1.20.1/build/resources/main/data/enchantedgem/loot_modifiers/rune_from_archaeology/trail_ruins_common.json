@@ -1,0 +1,17 @@
+{
+  "type": "enchantedgem:add_rune_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:archaeology/trail_ruins_common"
+    }
+  ],
+  "items": [
+    "enchantedgem:enchanted_rune_atk1",
+    "enchantedgem:enchanted_rune_shield1",
+    "enchantedgem:enchanted_rune_recover1",
+    "enchantedgem:enchanted_rune_regain_hunger1",
+    "enchantedgem:enchanted_rune_hunger_victim1",
+    "enchantedgem:enchanted_rune_recover_victim1"
+  ]
+}
