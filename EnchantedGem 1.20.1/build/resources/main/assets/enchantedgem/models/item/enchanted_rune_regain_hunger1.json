@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "enchantedgem:item/enchanted_rune_regain_hunger1"
-  }
-}
